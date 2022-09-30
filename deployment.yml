@@ -22,7 +22,7 @@ spec:
       containers:
         - name: simple-flask-app
           # image: IMAGE_TAG
-          image: omobolajisonde/simple-flask-app
+          image: omobolajisonde/simple-flask-app:1.0
           securityContext:
             privileged: false
             readOnlyRootFilesystem: false
